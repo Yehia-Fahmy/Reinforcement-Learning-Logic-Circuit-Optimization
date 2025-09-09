@@ -1,0 +1,4 @@
+# TODO: Implement value iteration by greedily updating
+
+- check each next state and value for the reward
+- update the value function and policy with best value and action

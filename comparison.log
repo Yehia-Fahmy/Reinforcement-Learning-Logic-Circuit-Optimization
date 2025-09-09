@@ -1,0 +1,417 @@
+Experiment Comparison Results
+==================================================
+
+Total Random Agent Experiments: 21
+Total Reinforce Experiments: 21
+Matching Experiments: 21
+
+MATCHING EXPERIMENTS COMPARISON:
+-----------------------------------
+
+Benchmark: arithmetic adder
+  Initial: 1020 LUTs, 255 depth
+
+  Random Agent:
+    Final: 272 LUTs, 87 depth
+    Product (LUT × Depth): 23664
+
+  Reinforce Agent:
+    Final: 253 LUTs, 84 depth
+    Product (LUT × Depth): 21252
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +19 (positive = Reinforce better)
+    Depth improvement: +3 (positive = Reinforce better)
+    Product improvement: +2412 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: arithmetic adder
+  Initial: 1020 LUTs, 255 depth
+
+  Random Agent:
+    Final: 272 LUTs, 87 depth
+    Product (LUT × Depth): 23664
+
+  Reinforce Agent:
+    Final: 256 LUTs, 83 depth
+    Product (LUT × Depth): 21248
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +16 (positive = Reinforce better)
+    Depth improvement: +4 (positive = Reinforce better)
+    Product improvement: +2416 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: arithmetic bar
+  Initial: 3336 LUTs, 12 depth
+
+  Random Agent:
+    Final: 1072 LUTs, 8 depth
+    Product (LUT × Depth): 8576
+
+  Reinforce Agent:
+    Final: 1053 LUTs, 8 depth
+    Product (LUT × Depth): 8424
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +19 (positive = Reinforce better)
+    Depth improvement: +0 (positive = Reinforce better)
+    Product improvement: +152 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: arithmetic sin
+  Initial: 5416 LUTs, 225 depth
+
+  Random Agent:
+    Final: 1950 LUTs, 95 depth
+    Product (LUT × Depth): 185250
+
+  Reinforce Agent:
+    Final: 1946 LUTs, 97 depth
+    Product (LUT × Depth): 188762
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +4 (positive = Reinforce better)
+    Depth improvement: -2 (positive = Reinforce better)
+    Product improvement: -3512 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control i2c
+  Initial: 1356 LUTs, 20 depth
+
+  Random Agent:
+    Final: 464 LUTs, 8 depth
+    Product (LUT × Depth): 3712
+
+  Reinforce Agent:
+    Final: 442 LUTs, 7 depth
+    Product (LUT × Depth): 3094
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +22 (positive = Reinforce better)
+    Depth improvement: +1 (positive = Reinforce better)
+    Product improvement: +618 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control int2float
+  Initial: 260 LUTs, 16 depth
+
+  Random Agent:
+    Final: 67 LUTs, 7 depth
+    Product (LUT × Depth): 469
+
+  Reinforce Agent:
+    Final: 61 LUTs, 5 depth
+    Product (LUT × Depth): 305
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +6 (positive = Reinforce better)
+    Depth improvement: +2 (positive = Reinforce better)
+    Product improvement: +164 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control router
+  Initial: 257 LUTs, 54 depth
+
+  Random Agent:
+    Final: 82 LUTs, 20 depth
+    Product (LUT × Depth): 1640
+
+  Reinforce Agent:
+    Final: 72 LUTs, 18 depth
+    Product (LUT × Depth): 1296
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +10 (positive = Reinforce better)
+    Depth improvement: +2 (positive = Reinforce better)
+    Product improvement: +344 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control ctrl
+  Initial: 174 LUTs, 10 depth
+
+  Random Agent:
+    Final: 40 LUTs, 3 depth
+    Product (LUT × Depth): 120
+
+  Reinforce Agent:
+    Final: 34 LUTs, 3 depth
+    Product (LUT × Depth): 102
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +6 (positive = Reinforce better)
+    Depth improvement: +0 (positive = Reinforce better)
+    Product improvement: +18 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control dec
+  Initial: 304 LUTs, 3 depth
+
+  Random Agent:
+    Final: 267 LUTs, 2 depth
+    Product (LUT × Depth): 534
+
+  Reinforce Agent:
+    Final: 264 LUTs, 2 depth
+    Product (LUT × Depth): 528
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +3 (positive = Reinforce better)
+    Depth improvement: +0 (positive = Reinforce better)
+    Product improvement: +6 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control priority
+  Initial: 978 LUTs, 250 depth
+
+  Random Agent:
+    Final: 313 LUTs, 67 depth
+    Product (LUT × Depth): 20971
+
+  Reinforce Agent:
+    Final: 282 LUTs, 64 depth
+    Product (LUT × Depth): 18048
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +31 (positive = Reinforce better)
+    Depth improvement: +3 (positive = Reinforce better)
+    Product improvement: +2923 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control cavlc
+  Initial: 693 LUTs, 16 depth
+
+  Random Agent:
+    Final: 213 LUTs, 8 depth
+    Product (LUT × Depth): 1704
+
+  Reinforce Agent:
+    Final: 216 LUTs, 8 depth
+    Product (LUT × Depth): 1728
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: -3 (positive = Reinforce better)
+    Depth improvement: +0 (positive = Reinforce better)
+    Product improvement: -24 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: arithmetic adder
+  Initial: 1020 LUTs, 255 depth
+
+  Random Agent:
+    Final: 272 LUTs, 87 depth
+    Product (LUT × Depth): 23664
+
+  Reinforce Agent:
+    Final: 266 LUTs, 80 depth
+    Product (LUT × Depth): 21280
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +6 (positive = Reinforce better)
+    Depth improvement: +7 (positive = Reinforce better)
+    Product improvement: +2384 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: arithmetic bar
+  Initial: 3336 LUTs, 12 depth
+
+  Random Agent:
+    Final: 1072 LUTs, 8 depth
+    Product (LUT × Depth): 8576
+
+  Reinforce Agent:
+    Final: 1052 LUTs, 7 depth
+    Product (LUT × Depth): 7364
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +20 (positive = Reinforce better)
+    Depth improvement: +1 (positive = Reinforce better)
+    Product improvement: +1212 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: arithmetic sin
+  Initial: 5416 LUTs, 225 depth
+
+  Random Agent:
+    Final: 1950 LUTs, 95 depth
+    Product (LUT × Depth): 185250
+
+  Reinforce Agent:
+    Final: 1976 LUTs, 97 depth
+    Product (LUT × Depth): 191672
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: -26 (positive = Reinforce better)
+    Depth improvement: -2 (positive = Reinforce better)
+    Product improvement: -6422 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control i2c
+  Initial: 1356 LUTs, 20 depth
+
+  Random Agent:
+    Final: 464 LUTs, 8 depth
+    Product (LUT × Depth): 3712
+
+  Reinforce Agent:
+    Final: 445 LUTs, 7 depth
+    Product (LUT × Depth): 3115
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +19 (positive = Reinforce better)
+    Depth improvement: +1 (positive = Reinforce better)
+    Product improvement: +597 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control int2float
+  Initial: 260 LUTs, 16 depth
+
+  Random Agent:
+    Final: 67 LUTs, 7 depth
+    Product (LUT × Depth): 469
+
+  Reinforce Agent:
+    Final: 64 LUTs, 5 depth
+    Product (LUT × Depth): 320
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +3 (positive = Reinforce better)
+    Depth improvement: +2 (positive = Reinforce better)
+    Product improvement: +149 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control router
+  Initial: 257 LUTs, 54 depth
+
+  Random Agent:
+    Final: 82 LUTs, 20 depth
+    Product (LUT × Depth): 1640
+
+  Reinforce Agent:
+    Final: 76 LUTs, 17 depth
+    Product (LUT × Depth): 1292
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +6 (positive = Reinforce better)
+    Depth improvement: +3 (positive = Reinforce better)
+    Product improvement: +348 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control ctrl
+  Initial: 174 LUTs, 10 depth
+
+  Random Agent:
+    Final: 40 LUTs, 3 depth
+    Product (LUT × Depth): 120
+
+  Reinforce Agent:
+    Final: 36 LUTs, 3 depth
+    Product (LUT × Depth): 108
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +4 (positive = Reinforce better)
+    Depth improvement: +0 (positive = Reinforce better)
+    Product improvement: +12 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control dec
+  Initial: 304 LUTs, 3 depth
+
+  Random Agent:
+    Final: 267 LUTs, 2 depth
+    Product (LUT × Depth): 534
+
+  Reinforce Agent:
+    Final: 264 LUTs, 2 depth
+    Product (LUT × Depth): 528
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +3 (positive = Reinforce better)
+    Depth improvement: +0 (positive = Reinforce better)
+    Product improvement: +6 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control priority
+  Initial: 978 LUTs, 250 depth
+
+  Random Agent:
+    Final: 313 LUTs, 67 depth
+    Product (LUT × Depth): 20971
+
+  Reinforce Agent:
+    Final: 296 LUTs, 66 depth
+    Product (LUT × Depth): 19536
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +17 (positive = Reinforce better)
+    Depth improvement: +1 (positive = Reinforce better)
+    Product improvement: +1435 (positive = Reinforce better)
+
+==================================================
+
+Benchmark: random_control cavlc
+  Initial: 693 LUTs, 16 depth
+
+  Random Agent:
+    Final: 213 LUTs, 8 depth
+    Product (LUT × Depth): 1704
+
+  Reinforce Agent:
+    Final: 211 LUTs, 7 depth
+    Product (LUT × Depth): 1477
+
+  Performance Comparison (Reinforce vs Random):
+    LUT improvement: +2 (positive = Reinforce better)
+    Depth improvement: +1 (positive = Reinforce better)
+    Product improvement: +227 (positive = Reinforce better)
+
+==================================================
+
+PERFORMANCE SUMMARY:
+--------------------
+
+Benchmarks where Reinforce outperformed Random:
+  • arithmetic adder
+  • arithmetic adder
+  • arithmetic bar
+  • random_control i2c
+  • random_control int2float
+  • random_control router
+  • random_control ctrl
+  • random_control dec
+  • random_control priority
+  • arithmetic adder
+  • arithmetic bar
+  • random_control i2c
+  • random_control int2float
+  • random_control router
+  • random_control ctrl
+  • random_control dec
+  • random_control priority
+  • random_control cavlc
+
+Benchmarks where Random outperformed Reinforce:
+  • arithmetic sin
+  • random_control cavlc
+  • arithmetic sin
+
+Summary: Reinforce better in 18 benchmarks, Random better in 3 benchmarks

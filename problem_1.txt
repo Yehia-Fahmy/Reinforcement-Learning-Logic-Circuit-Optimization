@@ -1,0 +1,15 @@
+TODO: Add any additional initialization parameters for your heuristic
+
+- didnt need anything additional
+
+TODO: Implement your heuristic strategy to select a move
+
+- kept a list of moves taken and the available moves
+- sorted the moves by the largest_new_k
+- chose the move with the lowest K value as our heuristic
+- skips the move if the next move has a K larger than 6
+- otherwise takes the move
+
+TODO: Modify this function to run comprehensive tests.
+
+- modified the function to take the appropriate parameters so that the sweep script would work

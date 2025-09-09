@@ -1,0 +1,12 @@
+numpy
+matplotlib
+jax
+flax
+optax
+orbax-checkpoint
+chex
+tqdm
+bitarray
+gymnasium
+stable-baselines3
+pymoo

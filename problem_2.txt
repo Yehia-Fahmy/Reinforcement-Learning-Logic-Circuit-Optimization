@@ -1,0 +1,52 @@
+General testing structure
+- Created random agent sweep and used that in conjunction with problem_2_sweep to test all combinations
+- created a parse_experiments.py script to parse the logs from both sweep scripts
+- then I inspected the file created (comparison.log) by my script to sumamrize the findings
+- i would make changes and experiment to look at which quantifiable improvements can be made
+- added features and changed reward function
+
+TODO: Implement feature calculation
+
+- implemented the features as requested
+- added three new features
+    - connectivity ratio
+    - critical path calculation
+    - distance from the critical path
+
+TODO: Implement a neural network architecture, linear/relu, etc as you wish
+
+- implemented a simple network
+- two Linear layers each followed by a layernorm layer
+- linear layer is like a desnse / fully connected layer this is a simple layer type which generalizes well
+- layernorm is added for model stability
+- I experimented with larger networks, although they increase the training time too much and dont provide much increased benefit
+
+TODO: Implement forward pass
+
+- implemented the forward pass as outlined by the steps
+
+TODO: Implement action sampling
+
+- action sampling was also outlined by the steps i just implemented what was said
+
+TODO: play with reward
+
+- experimented with multiple types of rewards
+- i tried the default reward and found that it performs poorly similar to the random agent
+- i also tried a reward based on the relative improvement to the baseline and found that this is better
+- in the end i found that the reward that uses a Pareto Frontier approach works best
+
+
+TODO -- compute exponentially moving average of rewards
+
+- used the formula EMA = alpha * prev avg + (1 - alpha) * current val
+- straightforward
+
+#TODO -- calculate advantge over baseline
+
+- simple difference
+
+#TODO noramlize
+
+- used similar EMA calculation to normalize advantage
+
